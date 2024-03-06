@@ -1,0 +1,136 @@
+.cart {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cart > h2 {
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+}
+
+.cart > h4 {
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+}
+
+.cart-content {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.colheader {
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.cart-list-item {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.cart-list-item * {
+  text-align: center;
+}
+.cart-list-item img {
+  width: 100px;
+}
+.cartItemName {
+  font-size: larger;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.cartItemQuantity button {
+  border: none;
+  background-color: #fff;
+}
+
+.cartItemPrice,
+.cartItemTotal {
+  color: #888;
+  opacity: 0.7;
+}
+
+.removeCartItemBtn {
+  border: none;
+  background-color: #fff;
+}
+
+.cart-bot div:first-child {
+  display: flex;
+  /* Important */
+  align-items: center;
+  /* Important */
+}
+
+.cart-bot svg {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.cart-bot a {
+  text-decoration: none;
+  color: #111;
+  font-style: italic;
+}
+
+.cart-bot div:nth-child(2) {
+  text-align: right;
+}
+
+.cart-bot button {
+  width: fit-content;
+}
+
+.cartItemCol {
+  /* căn giữa theo chiều ngang và chiều dọc */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartSubTotal,
+.cartTotal {
+  font-weight: 500;
+  padding: 1rem 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.cartSubTotal {
+  border-bottom: #888 0.5px solid;
+}
+
+.cartSubTotal span {
+  color: #333;
+  opacity: 0.5;
+  position: absolute;
+  right: 3rem;
+  text-align: right;
+}
+
+.cartTotal span {
+  position: absolute;
+  right: 3rem;
+  font-size: larger;
+}
+
+.coupon-input {
+  margin-top: 1rem;
+  max-width: 100%;
+  border: rgba(#555, #555, #555, 0.3) 0.1px solid;
+}
+
+.coupon-btn {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+}
+.cart-table {
+  width: 850px;
+}

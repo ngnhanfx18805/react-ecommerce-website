@@ -1,0 +1,96 @@
+.Product-detail-content {
+  margin-top: 2rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 5rem;
+}
+.product-1 {
+  display: flex;
+  margin-bottom: 5rem;
+}
+.product-1 .col1 img {
+  width: 100px;
+}
+.col2 img {
+  width: 400px;
+}
+img:hover {
+  cursor: pointer;
+}
+.col3 {
+  padding-left: 2rem;
+}
+.product-quantity {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  border-color: rgba(8, 8, 8, 0.4);
+  width: fit-content;
+}
+.button-submit {
+  background-color: rgb(53, 53, 53);
+  height: 2.5rem;
+  padding: 0 1.5rem;
+}
+.product-quantity * {
+  margin: 0 0.8rem;
+}
+
+.product-quantity button {
+  border: none;
+  background-color: #fff;
+}
+
+.product-quantity button:last-child {
+  background-color: #333;
+  color: #fff;
+  margin-right: 0;
+}
+
+/* Phần mô tả */
+.product-long-desc div:first-child {
+  width: fit-content;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.product-long-desc div:nth-child(2) {
+  font-style: italic;
+  font-size: large;
+  margin-bottom: 2rem;
+}
+
+.product-long-desc div:last-child {
+  opacity: 0.5;
+}
+
+.Related-item {
+  max-width: 25%;
+  text-align: center;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.Related-item img {
+  max-width: 100%;
+}
+
+.Related-item div {
+  color: #111;
+}
+
+.Related-item div:last-child {
+  opacity: 0.5;
+}
+
+.Related-item a {
+  width: fit-content;
+  text-decoration: none;
+}
+.product-quantity button:hover {
+  cursor: pointer;
+}

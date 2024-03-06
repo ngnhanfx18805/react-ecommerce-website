@@ -1,0 +1,19 @@
+.footer {
+  padding: 10px 30px;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer div ul {
+  font-size: 12px;
+  list-style-type: none;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(119, 119, 119);
+}

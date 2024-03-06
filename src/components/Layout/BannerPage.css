@@ -1,0 +1,13 @@
+.banner-page {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(237, 238, 240);
+}
+.banner-page h2 {
+  margin: 5rem;
+}
+.banner-page p {
+  margin: 5rem;
+  color: rgb(189, 190, 190);
+  font-size: 1.2rem;
+}

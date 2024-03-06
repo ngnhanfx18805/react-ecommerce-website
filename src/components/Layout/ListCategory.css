@@ -1,0 +1,33 @@
+.categories {
+  margin-top: 5rem;
+}
+
+.categories-head {
+  text-align: center;
+  font-style: italic;
+}
+
+.categories-head > div:first-child {
+  font-size: smaller;
+  opacity: 0.5;
+}
+
+.categories-head > h5 {
+  color: #333;
+  opacity: 0.8;
+}
+
+.categori-item {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.categori-item:hover {
+  opacity: 0.7;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+}

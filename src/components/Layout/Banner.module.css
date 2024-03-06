@@ -1,0 +1,31 @@
+.banner {
+  background-image: url(/public/banner1.jpg);
+  padding: 30px;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+.banner div {
+  line-height: 0;
+}
+.banner div button {
+  background-color: rgb(56, 56, 56);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.banner div p:first-child {
+  font-size: 28px;
+  color: rgb(165, 157, 157);
+}
+
+.banner div p {
+  font-size: 48px;
+}
+
+.banner div button:hover {
+  cursor: pointer;
+}

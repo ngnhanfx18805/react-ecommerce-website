@@ -1,0 +1,51 @@
+.form-background {
+  background-image: url(/public/banner1.jpg);
+  max-width: 100%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.form-background h2 {
+  margin-bottom: 5rem;
+  font-weight: lighter;
+}
+
+.form {
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: #111;
+  box-shadow: 1rem;
+  padding: 5rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px 5px #999;
+  box-shadow: blur(5px);
+  max-width: fit-content;
+  max-height: fit-content;
+  text-align: center;
+  backdrop-filter: blur(5px);
+}
+
+.form input {
+  padding: 1rem;
+  border: rgba(141, 141, 141, 0.3) solid 0.5px;
+}
+
+.form button {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  background-color: #444;
+  color: #fff;
+  border: none;
+}
+
+.error {
+  max-width: fit-content;
+  color: red;
+  font-size: large;
+  word-wrap: break-word;
+  padding: 0 1rem;
+  text-align: left;
+}

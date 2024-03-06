@@ -1,0 +1,40 @@
+.shopPage {
+  max-width: 100%;
+}
+
+.shopcontent {
+  display: flex;
+  margin-bottom: 5em;
+}
+
+.searchshop {
+  margin: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.shoplistitem {
+  position: relative;
+}
+.mm {
+  position: absolute;
+  bottom: -2em;
+  right: 2em;
+}
+.mmm {
+  display: flex;
+}
+.mmm p {
+  padding: 0.5em;
+  background-color: black;
+  color: white;
+}
+.mmm button {
+  border: none;
+  background-color: white;
+}
+.mmm button:hover {
+  cursor: pointer;
+}
+.mm p {
+  margin: 0;
+}

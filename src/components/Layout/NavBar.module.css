@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar1 {
+  margin: 30px 20px;
+}
+.navbar1 svg {
+  padding-top: 5px;
+}
+.navbar1 button {
+  margin: 10px;
+  border: none;
+  background-color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btnHome {
+  color: rgb(255, 197, 38);
+  cursor: pointer;
+}
+
+.logout {
+  margin-left: 1rem;
+}
+
+.logout:hover {
+  cursor: pointer;
+}

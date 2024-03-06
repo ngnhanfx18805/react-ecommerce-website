@@ -1,0 +1,73 @@
+.checkout h2,
+.checkout h4 {
+  margin-left: 2rem;
+  font-style: italic;
+}
+
+.checkout h2 {
+  margin-bottom: 8rem;
+  margin-left: 5rem;
+}
+
+.checkout-info {
+  padding: 0 2rem;
+}
+
+.checkout-info label {
+  margin: 1rem 0 0.8rem 0;
+  font-style: italic;
+}
+
+.checkout-info input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  border: #888 solid 1px;
+  opacity: 0.5;
+}
+
+.checkout-info input::placeholder {
+  opacity: 0.5;
+}
+
+.checkout-info button {
+  padding: 0.5rem 1.5rem;
+  width: fit-content;
+  background-color: #333;
+  color: #fff;
+  font-style: italic;
+  font-size: large;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.checkout-order {
+  padding: 1rem 3rem;
+  margin-right: 100px;
+}
+
+.checkout-order-row {
+  color: #111;
+  border-bottom: solid 0.8px;
+  padding: 1rem 0;
+}
+
+.checkout-order-row-name {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.checkout-order-opacity {
+  color: #777;
+  opacity: 0.5;
+  text-align: right;
+}
+
+.checkout-total {
+  margin-top: 1rem;
+  font-size: larger;
+}
+.checkout-content {
+  display: flex;
+  justify-content: space-between;
+}
